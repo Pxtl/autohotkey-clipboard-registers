@@ -8,3 +8,7 @@ Multi‑slot clipboard registers using the 1-5 keys on Windows AutoHotkey
 Requires AutoHotkey 2
 
 https://github.com/autohotkey/autohotkey
+
+# Generative-AI note
+
+Developed in collaboration with MS Copilot.  But it was pretty bad at it.
