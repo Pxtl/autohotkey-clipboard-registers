@@ -88,6 +88,8 @@ PasteClipboard(n) {
 
     savedClipboard := ClipboardAll()
     A_Clipboard := ClipboardRegisters[n]
+    ; sleeps are needed because often it pastes the savedClipboard
+    Sleep 50
     Send "^v"
     Sleep 50
     A_Clipboard := savedClipboard
